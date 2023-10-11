@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -62,8 +61,12 @@ main {
     border-radius: 0.5rem;
     background-color: #f8f8f8;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    font-size: 8rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cell:hover {
     cursor: pointer;
 }
+
+
