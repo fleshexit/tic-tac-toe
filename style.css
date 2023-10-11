@@ -1,4 +1,11 @@
 
+:root {
+    --background-color: #f8f8f8;
+    --text-color: #000;
+    --primary-font: 'Roboto', sans-serif;
+    --cell-font: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +13,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -55,14 +62,15 @@ main {
 }
 
 .cell {
+    display: flex;
+    justify-content: center;
     width: 10rem;
     height: 10rem;
-    border: none;
     border-radius: 0.5rem;
-    background-color: #f8f8f8;
+    background-color: var(--background-color);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
     font-size: 8rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--cell-font);
 }
 
 .cell:hover {
