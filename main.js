@@ -26,11 +26,11 @@ const Gameflow = () => {
     };
   
     const cellClicked = function () {
-      const cellIndex = this.getAttribute("cellIndex");
-      if (board[cellIndex] !== "" || !gameActive) {
+      const index = this.getAttribute("index");
+      if (board[index] !== "" || !gameActive) {
         return;
       }
-      updateCell(this, cellIndex);
+      updateCell(this, index);
       checkWin();
     };
   
