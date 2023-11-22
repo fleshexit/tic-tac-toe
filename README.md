@@ -4,7 +4,7 @@ A simple and interactive Tic Tac Toe game implemented with HTML, CSS, and JavaSc
 
 ## Demo
 
-View the live demo [here](https://chrlie-w.github.io/tic-tac-toe).
+View the live demo [here](https://fleshexit.github.io/tic-tac-toe).
 
 
 ## Features
